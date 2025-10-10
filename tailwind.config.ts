@@ -47,16 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        "card-glass": "hsl(var(--card-glass))",
+        "card-glass-border": "hsl(var(--card-glass-border))",
+        "chart-fill": "hsl(var(--chart-fill))",
+      },
+      backgroundImage: {
+        "weather-gradient": "linear-gradient(135deg, hsl(var(--weather-gradient-start)), hsl(var(--weather-gradient-end)))",
       },
       borderRadius: {
         lg: "var(--radius)",
